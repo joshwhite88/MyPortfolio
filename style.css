@@ -27,7 +27,21 @@ nav a {
 }
 
 #about-me {
+    margin-top: 3rem;
+    height: 20rem;
+}
+
+.about-me-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 3rem;
+}
+
+.about-me-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-me img {
+    max-width: 40%;
+    height: auto;
 }
