@@ -1,0 +1,33 @@
+html, body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    padding-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#about-me {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
