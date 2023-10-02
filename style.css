@@ -66,3 +66,8 @@ nav a {
     max-width: 60%;
     height: auto;
 }
+
+footer {
+    text-align: center;
+    font-size: .8rem;
+}
